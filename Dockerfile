@@ -1,4 +1,4 @@
-FROM python:3.8.2-alpine3.11
+FROM FROM mcr.microsoft.com/azure-functions/python:4-python3.8
 
 ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
