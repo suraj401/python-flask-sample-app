@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/azure-functions/python:4-python3.8
+FROM python:3.8-slim-buster
 
 ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
