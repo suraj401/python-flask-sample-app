@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python:3.11
 
 ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
