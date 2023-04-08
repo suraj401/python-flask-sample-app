@@ -1,4 +1,4 @@
-FROM python:3.8-alpine3.10
+FROM python:3.8-slim
 
 ENV FLASK_APP=flaskr
 ENV FLASK_ENV=development
